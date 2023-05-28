@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/add_circle_outline_black_24dp.svg</file>
+        <file>icons/content_copy_black_24dp.svg</file>
+        <file>icons/delete_outline_black_24dp.svg</file>
+        <file>icons/move_down_black_24dp.svg</file>
+        <file>icons/move_up_black_24dp.svg</file>
+        <file>icons/navigate_before_black_24dp.svg</file>
+        <file>icons/navigate_next_black_24dp.svg</file>
+        <file>icons/menu_black_24dp.svg</file>
+        <file>icons/splitscreen_black_24dp.svg</file>
+    </qresource>
+</RCC>

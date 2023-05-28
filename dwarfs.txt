@@ -1,0 +1,36 @@
+Snow White and a Dwarfs party
+Snow White was invited to a Dwarfs party. When she came, she counted 43 Dwarfs. The Dwarfs
+wore green, orange or red hats. The Dwarfs with green hats always told the truth. The Dwarfs with
+orange hats told truth or lie every other time (for the first time they could answer either true or
+false). The Dwarfs with red hats lie all the time.
+In order to count the number of Dwarfs wearing different hats, Snow White asked every Dwarf three
+questions (in that order):
+- "Are you wearing a green hat?"
+- "Are you wearing an orange hat?"
+- "Are you wearing a red hat?"
+Totally she got 34 positive answers to the first question, 26 positive answers to the second question
+and 11 positive answers to the third question.
+How many Dwarfs with orange hats attended the party?
+
+So what we know: 
+G + O + R = 43
+
+Green question would give a positive answer for truthful green, a random amount of lying orange and for lying red
+G + OQ1 + R = 34
+
+Orange question would give a positive answer for the orange hatted that lied on last one and tell the truth now and for lying red
+OQ2 + R = 26
+
+Red question would give a positive answer for lying orange only
+OQ3 = 11
+
+It's the same orange hatted who would lie on the first, tell the truth on the second and lie on the third question
+OQ1 = OQ2 = OQ3 = 11
+
+subst in green question
+G + R = 34 - 11 = 23
+
+then
+O = 43 - (G + R) = 43 - 23 = 20
+
+so 20 orange hatted dwarfs.
